@@ -1,0 +1,262 @@
+* {
+    text-transform: uppercase;
+    margin: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    color: #1f1f1f;
+    /* padding: 10%; */
+
+
+}
+
+span {
+
+    font-weight: bolder;
+}
+
+/* pg1 */
+.pg1 {
+    height: 100vh;
+    background: rgb(107, 226, 78);
+    color: white;
+    margin: auto;
+    /* width: 50%; */
+    padding: 10%;
+}
+
+.pg1 h1 {
+    font-size: 64px;
+}
+
+.pg1 h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.pg1 h2 span {
+    background: rgb(107, 226, 78);
+    padding: 0 10px;
+}
+
+.pg1 .det {
+    background: rgb(255, 255, 255);
+    color: black;
+    /* width: 50%; */
+    padding: 10px;
+    margin-top: 10%;
+
+}
+
+/* PG2 */
+.pg2 {
+    height: 100%;
+    /* background-color: tomato; */
+}
+
+.pg2 h1 {
+    text-align: start;
+}
+
+.pg2 h3 {
+    text-align: start;
+}
+
+.threecircles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+.greencircle {
+    color: green;
+    border: green solid 2px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.greencircle h2 {
+    margin-top: 45%
+}
+
+.okcircle{
+    color: yellow;
+    border: yellow solid 2px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 100px;
+}
+.okcircle h2{
+    margin-top: 45%;
+}
+
+
+.redcircle {
+    color: white;
+    background-color: red;
+    border: red solid 2px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.redcircle h2 {
+    margin-top: 45%
+}
+
+/* table.risklab */
+.risklab {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.risklab th,
+.risklab td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.risklab tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.risklab tr:hover {
+    background-color: #ddd;
+}
+
+.risklab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* pg3 */
+.pg3 {
+    height: 100%;
+}
+.pg3 h2 , .pg3 p{
+    text-align: left;
+}
+
+/* table */
+.table{
+    border-collapse: collapse;
+    width: 80%;
+}
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.body-mass-index{
+    margin: 0%;
+}
+
+/* pg4 */
+.pg4{
+    height: 100%;
+}
+
+.pg4 h2 , .pg4 p ,.pg4 h4{
+    text-align: left;
+}
+
+
+
+
+
+/* mobile changes */
+@media only screen and (max-width: 960px) {}
+
+
+.bg-grey {
+    background-color: #b8b8b8;
+    /* text-align: left; */
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.bg-grey h1,
+.bg-grey p {
+    text-transform: capitalize;
+    /* text-align: left; */
+}
+
+.bg-grey a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.grey-color {
+    color: #5c5c5c;
+}
+
+.white-color {
+    color: white;
+}
+
+.yello-bg {
+    background-color: #8B8000;
+    color: white;
+}
+
+.green-bg {
+    background-color: green;
+    color: white;
+}
+
+.red-bg {
+    background-color: rgb(224, 18, 18);
+    color: white;
+    padding: 10px;
+    border: rgb(224,18,18) solid 1px;
+    border-radius: 2px;
+}
+
+.grey-highlight {
+    background-color: gray;
+}
+
+.primary-button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(41, 138, 177);
+    color: white;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    box-shadow: slategrey;
+}
