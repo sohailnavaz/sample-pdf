@@ -4,7 +4,10 @@
     align-items: center;
     text-align: center;
 }
-
+a{
+    text-decoration: none;
+    color:white;
+}
 body {
     background-color: white;
     color: #1f1f1f;
@@ -17,7 +20,11 @@ span {
 
     font-weight: bolder;
 }
-
+.sidebyside{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+}
 /* pg1 */
 .pg1 {
     height: 100vh;
@@ -192,6 +199,97 @@ span {
     text-align: left;
 }
 
+/* pg5 */
+.pg5{
+    height: 100%;
+}
+.pg5 h2,.pg5 p{
+    text-align: left;
+}
+
+/* graph */
+.quiz-chartTip {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.1);
+    position: absolute;
+    z-index: 50;
+    max-width: 250px;
+}
+
+.quiz-graph {
+    padding: 10px; 
+    height: 370px;
+    width: 100%;
+}
+
+.quiz-graph .x-labels {
+    text-anchor: middle;
+}
+
+.quiz-graph .y-labels {
+    text-anchor: end;
+}
+
+.quiz-graph .quiz-graph-grid {
+    stroke: #ccc;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+}
+
+.label-title {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    fill: gray;
+}
+
+.quiz-graph-dot, .quiz-graph-start-dot{
+    fill: rgba(0,112,210,1);
+    stroke-width: 2;
+    stroke: white;   
+}
+
+.pg6{
+    height: 100%;
+
+}
+
+.pg6 h2,.pg6  p{
+    text-align: left;
+}
+
+.pg7{
+    height: 100%;
+
+}
+
+.pg7 h2,.pg7  p{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,6 +304,9 @@ span {
     padding: 2px;
     width: 100%;
     margin-bottom: 5px;
+}
+.bg-grey p{
+    text-align: left;
 }
 
 .bg-grey h1,
@@ -228,14 +329,20 @@ span {
     color: white;
 }
 
-.yello-bg {
-    background-color: #8B8000;
+.yellow-bg {
+    background-color: rgb(145,170, 0);
     color: white;
+    padding: 10px;
+    border: rgb(145, 170, 2) solid 1px;
+    border-radius: 2px;
 }
 
 .green-bg {
     background-color: green;
     color: white;
+    padding: 10px;
+    border: green solid 1px;
+    border-radius: 2px;
 }
 
 .red-bg {
@@ -245,6 +352,7 @@ span {
     border: rgb(224,18,18) solid 1px;
     border-radius: 2px;
 }
+
 
 .grey-highlight {
     background-color: gray;
@@ -259,4 +367,13 @@ span {
     width: auto;
     height: auto;
     box-shadow: slategrey;
+}
+.orange-bg{
+    background-color: orange;
+    color: white;
+    /* padding: 10px; */
+    border-radius: orange;
+    border-radius: 2px;
+    text-align: left;
+    /* height: 500px; */
 }
